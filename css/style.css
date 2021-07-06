@@ -1,0 +1,38 @@
+html, body{
+	height: 100%;
+	margin: 0;
+}
+.time{
+	width: 80%;
+	overflow: auto;
+}
+.part{
+	display: inline-flex;
+	position: relative;
+}
+.block{
+	height: 150px;
+	border: 1px dashed;
+	border-width: 1px 1px 1px 0;
+	width: 75px;
+	margin: 0;
+	padding: 0;
+	user-select: none;
+}
+.reservation{
+	position: absolute;
+	background: #ffdb58;
+	height: 152px;
+	left: 0;
+	width: 76px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.device img{
+	width: 500px;
+	height: 150px;
+}
+.schedule{
+	display: inline-flex;
+	width: 100%;
+}
